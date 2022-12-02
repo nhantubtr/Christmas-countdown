@@ -1,0 +1,12 @@
+body {
+    background-image: url(images/ilona-frey-EC92VYoYwC4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #FFF;
+}
+
