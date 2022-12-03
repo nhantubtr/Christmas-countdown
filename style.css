@@ -2,11 +2,33 @@ body {
     background-image: url(images/ilona-frey-EC92VYoYwC4-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+    font-family: 'Roboto', sans-serif;
 }
 h1 {
     text-align: center;
     font-size: 48px;
     color: #FFF;
 }
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    color: #DC3535;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 50%;
+    width: 120px;
+}
+
 
