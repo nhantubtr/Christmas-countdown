@@ -25,8 +25,16 @@ function christmasCountdown (){
         document.querySelector("#second").textContent = 0;
 
         clearInterval(timer);
+        merryChristmas();
     }
 
+    
+}
+
+function merryChristmas(){
+    let header = document.querySelector("#header");
+    header.textContent = "Merry Christmas! Ho-Ho-Ho";
+    header.classList.add("christmasHeader");
     
 }
 
