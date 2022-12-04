@@ -1,10 +1,6 @@
 body {
     padding: 10px;
-    background-image: url(images/ilona-frey-EC92VYoYwC4-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
-    background-position: center ;
+    background-color: #EFF5F5;
 
 }
 h1 {
@@ -30,15 +26,26 @@ button {
 img {
     margin: 0;
 }
+
+.container-main {
+    max-width: 900px;
+    padding: 60px 40px 120px 40px;
+    margin: 20px auto;
+    border-radius: 15px;
+    background-image: url(images/ilona-frey-EC92VYoYwC4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .container {
-    margin-top: 80px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     color: #C21010;
-    padding-top: 40px;
-    padding-bottom: 80px;
-    margin-bottom: 60px;
+
 }
 
 .card {
@@ -57,11 +64,7 @@ img {
 }
 
 
-@media all and (max-width: 1200px) {
-    .container {
-        padding-bottom: 300px;
-    }
-}
+
 
 @media all and(max-width: 600px){
 
