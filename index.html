@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christmas Countdown</title>
+    <link rel="icon" href="data:,">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Staatliches&display=swap" rel="stylesheet">
-    
+    <script src="https://kit.fontawesome.com/1430c96e65.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1 id="header">Santa is coming in...</h1>
+        <audio id="audio" src="/audio/Carol.mp3" loop="Loop"></audio>
+       
+        <h1 id="header"><button id="button"><img src="/images/icons8-play-pause-32.png" alt="Play button"></button>Santa is coming in...</h1>
+    
     <div class="container">
         <div class="card">
                 <h3 id="day"></h3>
@@ -31,6 +35,8 @@
                 <h2>Seconds</h2>
         </div>
     </div>
+
+   
 
 
 

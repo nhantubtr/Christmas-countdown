@@ -38,4 +38,17 @@ function merryChristmas(){
     
 }
 
+function play(){
+    const audio = document.querySelector("#audio")
+    if (audio.paused){
+    audio.play();
+    }
+    else {
+        audio.pause();
+    }
+}
+
+const button = document.querySelector("#button");
+button.addEventListener("click", play)
+
 let timer = setInterval(christmasCountdown, 1000);
